@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="git.css">
+    <link rel="icon" type="image/jpg" href="https://i.pinimg.com/736x/04/a1/6a/04a16adf31c893c93eb1ddade4910480.jpg">
+
+</head>
+<body>
+    <div id="error-card">
+        <img src="alert.gif" alt="">
+        <p id="err-pop">Something Went wrong....</p>
+        <button id="disbtn">Dismiss</button>
+    </div>
+    <div id="input-btn">
+        <h1>GitHub User Finder</h1>
+        <div>
+            <input type="text" id="username" placeholder="Enter GitHub username">
+        <button id="btn">Search</button>
+        <p id="error">Plase enter the username</p>
+        </div>
+    </div>
+
+    <main id="data-show">
+
+        <div id="card">
+            <!-- <div id="imgg"><img id="avatar" src="https://i.pinimg.com/736x/8a/38/22/8a3822ddc1eabc7e817a95f27a4a0719.jpg" alt="User Avatar"></div>
+            <div id="user-info">
+                <div id="top">
+                    <h2 id="name">Adarsh</h2>
+                    <p id="username">@adarsh</p>
+                    <p id="bio">My life my rules</p>
+                </div>
+    
+                <div id="bottom">
+                    <p id="repos">Public Repositories: 0</p>    
+                    <p id="followers">Followers: <span>588</span></p>
+                    <p id="following">Following: <span>588</span></p>
+                    <p id="location">Location: <span>588</span></p>
+                    <p id="company">Company: <span>588</span></p>
+                    <p id="blog">Blog: <span>588</span></p>
+                </div> -->
+    
+    
+    
+            </div>    
+    
+        </div>
+        <h2 id="repos-heading">Repositories</h2>
+        <div id="container">
+            
+            <!-- <div id="cardrepo">
+                <div id="top">
+                    <a href="${el.html_url}" target="_blank">${el.name}</a>
+                    <p id="rname">${el.language}</p>
+                </div>
+                <p id="desc">Desciption: <span>${el.description || "N/A"}</span></p>
+                <div id="bottom">
+                    <p id="rname">Views: <span>${el.watchers}</span></p>
+                    <p id="rname">Created At: <span>${updated}</span></p>
+                    <p id="rme">Rating: <span>${el.stargazers_count}</span></p>
+                </div> -->
+    
+            </div>
+        </div>
+
+    </main>
+
+    <script src="git.js"></script>  
+</body>
+</html>
